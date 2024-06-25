@@ -1,9 +1,9 @@
 import { IHeaderProps } from "@/interfaces";
-import Form from "./Form";
+import Form from "./FormHeader";
 
 const Header = (props: IHeaderProps) => {
   return (
-    <header className="flex justify-between items-center bg-primary-header h-[104px] py-8 px-[100px]">
+    <header className="flex justify-between items-center bg-primary-header py-8 px-[100px]">
       <h1 className="text-4xl text-[32px] font-[500] text-background">
         Recycle Din
       </h1>
